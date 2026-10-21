@@ -1,0 +1,48 @@
+# OS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Credentials & Keys
+*.cer
+*.p12
+*.p8
+*.key
+*.pem
+*.mobileprovision
+*.certSigningRequest
+*.ipa
+serviceAccountKey.json
+google-services.json
+GoogleService-Info*.plist
+.env
+.env.*
+!.env.example
+
+# Next.js & Node
+node_modules/
+.next/
+out/
+npm-debug.log*
+
+# Flutter & Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+build/
+**/Pods/
+**/.symlinks/
+*.dSYM*
+
+# Android
+.gradle/
+local.properties
+**/app/release/
+**/app/debug/
+*.apk
+*.aab
+
+# Ephemerals
+**/ephemeral/
